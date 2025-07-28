@@ -1,0 +1,273 @@
+
+
+
+html {
+
+  font-family: "Noto Sans TC", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  line-height: 1.15;
+  letter-spacing: 1px;
+  display: block;
+  /* 
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+   */
+}
+
+.container{
+  margin:50px 30px;
+  background-color: #f5f7fa;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 8px;
+
+
+}
+
+
+
+main {
+  
+  padding: 50px 30px;
+  background-color:darkblue;
+
+
+}
+
+sup {
+  font-size: 22px;
+  letter-spacing: 5px;
+}
+
+sub {
+  font-size: 22px;
+  letter-spacing: 5px;
+}
+
+.month {
+  font-size: 16px;
+  text-transform: lowercase;
+
+}
+
+section {
+  background-color:white;
+  margin: 15px;
+  width: 30%;
+  /* border:1px solid black; */
+  display: inline-block;
+  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.1);
+  border: 0px solid grey;
+  border-radius: 5px;
+  text-align: center;
+  
+  /* width: 250px; */
+
+}
+
+img{border-radius:10px; width: 100px; align-items: center; }
+img:hover{size-adjust:larger;align-items: center;}
+
+body{
+  align-content: center;
+
+} 
+  /* background-image:url(/img/Applications.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed} */
+h1{
+  color:black; 
+  font-size: 48px; 
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+p{
+  color:black; 
+  font-size: 12px; 
+  text-align: center; 
+  line-height: 1.5;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* text-wrap-mode: wrap; */
+
+  
+}
+
+
+button{
+  opacity: 1 ;
+  color: black; 
+  background-color: white;
+  text-transform: uppercase; 
+  /* display: block; */
+  font-size: 20px; 
+  border: 3px solid black; 
+  border-radius: 5px; 
+  width: 80%; 
+  padding: 10px 2px;
+  text-decoration: none;
+
+}
+
+button:hover{
+  opacity: 1 ;
+  color: white; 
+  background-color: black;
+  text-transform: uppercase; 
+  /* display: block; */
+  font-size: 20px; 
+  border: 3px solid black; 
+  border-radius: 5px; 
+  width: 80%; 
+  padding: 10px 2px;
+  text-decoration: none;
+  
+}
+
+.content{
+  font-size: 12px;
+  line-height: 1.5;
+  height: 2rem;
+  overflow-wrap: break-word;
+}
+
+.fa-check {
+  color: green;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+ul{
+  padding: 20px; 
+  line-height: 1.5;
+  text-align: left;
+
+}
+/* li{padding: 5px; font-size: 12px; color: blueviolet; list-style-image: url('/HTML/img/tick_symbols\ _icon.gif'); text-align: left;} */ 
+li{
+  padding: 5px; 
+  font-size: 12px; 
+  color: blue; 
+  text-align: left; 
+  list-style-type: none;
+
+}
+
+.li-icon{
+  padding: 5px; 
+  font-size: 12px; 
+  color: blueviolet; 
+  text-align: left;
+}
+
+p {
+  color:black; 
+  font-size: 12px; 
+  text-align: center;
+}
+
+footer {
+  color:grey; 
+  font-size: 12px; 
+  text-shadow: 2px; 
+  font-style: italic;
+}
+
+.free {
+   background-image: linear-gradient(to right,white, #f7f8fa);
+   color:black;
+   font-weight: bold;
+   height: 30px;
+   text-align: center;
+   padding: 10px;
+   margin: 20px;
+}
+
+.pro {
+   background-image: linear-gradient(to right, #c7e5ff, #b277fa);
+   color:white; 
+   font-weight: bold;
+   height: 30px;
+   text-align: center;
+   padding: 10px;
+   margin: 20px;
+}
+
+
+.enterprise {
+   background-image: linear-gradient(to right, #f5b0bf, #f0ca73);
+   color:white;
+   font-weight: bold;
+   height: 30px;
+   text-align: center;
+   padding: 10px;
+   margin: 20px;
+}
+
+a {
+  display:block;
+  opacity: 1 ;
+  color: black; 
+  background-color: white;
+  text-transform: uppercase; 
+  /* display: block; */
+  font-size: 20px; 
+  border: 3px solid black; 
+  border-radius: 5px; 
+  width: 80%; 
+  padding: 10px 10px 10px 10px;
+  margin-left: 15px;
+  text-decoration: none;
+  margin: auto;
+
+}
+
+a:hover{
+  display:block;
+  opacity: 1 ;
+  color: white; 
+  background-color: black;
+  text-transform: uppercase; 
+  /* display: block; */
+  font-size: 20px; 
+  border: 3px solid black; 
+  border-radius: 5px; 
+  width: 80%; 
+  padding: 10px 10px 10px 10px;
+  margin-left: 15px;
+  text-decoration: none;
+  margin: auto;
+  
+}
+
+
+
+strong{
+
+  text-transform: uppercase;
+}
+
+.boldcenter{
+  text-align: center; 
+  font-weight: bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.ptitle {
+  color:black; 
+  font-size: 16px; 
+  text-align: center; 
+  font-style: bold; 
+  font-weight: bold; 
+  text-transform: uppercase;
+}
+

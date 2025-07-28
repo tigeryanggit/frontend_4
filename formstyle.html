@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/HTML/css/formstyle.css">
+</head>
+<body>
+    <!-- main>h1{Contact Us}+form>.form-group>Lable{name}+input[Placeholder="Enter Name"]+(.form-group>Lable[Email]+input[placeholder="Enter Email"])+(.form-group>Lable[Message]+input[placeholder="Enter Message"][type='textarea'])+button[type] -->
+    <main>
+        <h1>Contact Us</h1>
+        <form action="">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <!-- name="name" create a new variable, submit the values -->
+                <input type="text" placeholder="Enter Name" id="name" name="name" required minlength="5">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter Email" id="email" name="email" >
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+            
+                <textarea placeholder="Enter Message" id="message" name="message"></textarea>
+                    <!-- <input type="textarea" placeholder="Enter Message" id="message" name="message"> -->
+            <button type="submit">Submit</button>
+
+            <!-- Another method to show the button -->
+            <!-- <input type="submit" value="submit"/> -->
+            <!-- <a href="/redirect.html" type="button">get started</a> -->
+            
+        </div>
+            
+        </form>
+    </main>
+
+</body>
+</html>
+

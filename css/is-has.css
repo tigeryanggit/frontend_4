@@ -1,0 +1,70 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    
+}
+
+
+
+.container :is(h1,h2,p) {
+
+    color: blue;
+
+}
+
+/* 
+same as 
+.container h1 {},
+.container h2 {},
+.container p {}
+
+*/
+
+
+
+p :is(a) {
+    color:yellow;
+}
+
+
+
+/*
+same as  
+p a {
+    color: green;
+} 
+*/
+
+a:is(:hover, :focus) {
+    background-color: pink;
+}
+
+/* "where" has lower priority then "is"   */
+.container :where(h1,h2,p) {
+    color:green;
+}
+
+.container :has(h1, span) {
+    color:red;
+}
+
+/* from child select parent */
+.container :has(p,a) {
+    border:1px solid blue;
+
+}
+

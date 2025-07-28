@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 2;
+
+}
+
+.container {
+    max-width: 600px;
+    margin:30px auto;
+    padding: 2rem;
+    
+    background-repeat: no-repeat;
+    
+}
+
+
+
+/* direct child */
+.container > p {
+    font-weight: bold;
+    color: red;
+    margin-bottom: none;
+
+}
+
+.container > ul {
+    list-style: none;
+}
+
+.container > a {
+    color: green;
+
+}
+
+/* immediate sibling of h1 */
+
+.container h1 + a {
+    color: cyan;
+    font-weight: bold;
+}
+
+.container h1 ~ a {
+
+    border: 1px solid coral;
+}
+
+
+/* all sibling div to the direct ul children of the container */
+.container > ul~div {
+
+    background-color: lightblue;
+
+}
+
+ul li:first-child {
+    background-color: cyan;
+
+}
+
+ul li:last-child {
+    background-color: coral;
+}
+
+ul li:nth-child(odd) {
+    background: lightgreen ;
+}
+
+
+ul li:nth-child(even) {
+    background:yellow;
+}
+
+ul li:nth-child(8) {
+    background: red;
+}
+
+
+ul li:nth-child(5n) {
+    background:gold;
+}
+
+h2 a:only-child {
+    background: pink;
+}
+
+.container div:only-of-type {
+    background: lightsalmon;
+
+}

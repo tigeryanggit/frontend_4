@@ -1,0 +1,79 @@
+html, body {
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Static */
+.box-1 {
+    position: static;
+    /* top, left has no effect */
+    left: 30px;
+    top: 20px;
+}
+
+/* Relative */
+.box-2 {
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+.box-3 {
+    position: fixed;
+    top:0;
+    left:20px;
+    z-index: -1;
+
+}
+
+/* relative + fix  Fix this div, but contents can move */
+
+.box-4 {
+    position: sticky;
+    top: 200px;
+
+}
+
+.box-5 {
+    width: 400px;
+    height: 400px;
+    /* position: fixed; */
+    right: 0;
+    top:0;
+
+}
+
+/* absoute --> refer to the nearer container position with box 5 要有 position cmd */
+.box-6 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
+
+.container {
+    border: 1px solid red;
+    margin: 50px 0px;
+    position: relative;
+
+
+}

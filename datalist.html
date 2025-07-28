@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+
+        <label for="favLang">Favorite Programming Language</label> 
+        <input list="Lang" name="favLang" id="favLang" />
+        <datalist id="Lang">
+            <option value="JavaScript"></option>
+            <option value="HTML"></option>
+            <option value="CSS"></option>
+            <option value="Python"></option>
+            <option value="Java"></option>
+            <option value="C++"></option>
+            <option value="Ruby"></option>
+        </datalist>
+        <br>
+        <br>
+
+        <!-- time -->
+        <label for="time">Time</label>
+        <input type="time" list="popularHours" name="happyHour"> 
+        <datalist id="popularHours">    
+            <option value="08:00"></option>
+            <option value="10:00"></option>
+            <option value="23:00"></option>
+        </datalist>
+        <br>
+        <br>
+
+        <!-- range -->
+        <label for="tick">Tip Amount</label> 
+        <input type="range" list="tickmarks" name="tick" id="tick" min="0" max="100" />
+        <datalist id="tickmarks" >
+            <option value="0"></option>
+            <option value="10"></option>
+            <option value="20"></option>
+            <option value="30"></option>
+            <option value="40"></option>
+            <option value="50"></option>
+            <option value="60"></option>
+            <option value="70"></option>
+            <option value="80"></option>
+            <option value="90"></option>
+            <option value="100"></option>
+        </datalist>
+
+        <br>
+        <br>
+
+        <!-- tips -->
+        <label for="color">Favorite Color</label> 
+        <input type="color" list="listColor" name="color" id="color" value="#ff0000"/>
+        <datalist id="listColor">
+            <option value="#ff0000"></option> 
+            <option value="#00ff00"></option>
+            <option value="#000fff"></option> 
+        </datalist>   
+
+        <!-- Progress meter -->
+        <br>
+        <br>
+        <label for="file">File Progress</label> 
+        <progress class="file" max="100" value="30">30%</progress>
+
+        <!-- meter -->
+         <br>
+         <br>
+         <label for="fuel">Fuel:</label>
+         <meter value="10"
+            value="10"
+            id="fuel"
+            min="0"
+            max="100"
+            low="30"
+            high="70"
+            optimum="80"
+         
+         >50/100
+         </meter>
+         <figure>
+         <br>
+         <br>
+            <video 
+                src="/VID-20250722-WA0004.mp4" 
+                type="video/mp4" 
+                autoplay 
+                controls 
+                loop 
+                muted
+                width="400px">
+            </video>
+
+
+         <figcaption>Video 1: card play</figcaption>
+         <!-- 用嚟放google map or html of myself,/utube add embed -->
+
+         <embed src="" type="">
+         <iframe 
+            src="https://youtube.com/embed/I9CBYp7Xbdw" 
+            frameborder="0" 
+            width="560" 
+            height="315">
+
+         </iframe>
+        
+         </figure>
+        <iframe src="/ppsmerchlist.pdf" type="application/pdf" width="500px" ></iframe>
+            <br>
+            <br>
+        <!-- google map -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29528.869012706138!2d114.22597119999999!3d22.3117312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340406ad58aab66b%3A0xb10e3fa4a2ef0fac!2sUnited%20Christian%20Hospital!5e0!3m2!1sen!2shk!4v1753148180394!5m2!1sen!2shk" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </iframe>
+
+
+         <!-- map -->
+        <img src="/img/computer.jpg" alt="computer" usemap="#computermap" />
+        <map name="computermap">
+            <area shape="rect" coords="34,44,270,350" href="http://www.yahoo.com.hk" alt="" />
+            <area 
+                shape="circle" 
+                coords="377,300,45" 
+                href="https://www.google.com" 
+                alt="" />
+        </map>
+
+        
+
+    </main>
+</body>
+</html>

@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+:root {
+
+    --container-width: 1000px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+.container {
+background: #000;
+width: var(--container-width);
+height: 100px;
+display: flex;
+
+}
+
+.item {
+    margin: calc(100% - 20px);
+    min-width: calc(calc(1000/5)-20px); 
+    margin: 10px;
+    background:coral;
+
+}

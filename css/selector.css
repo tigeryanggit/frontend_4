@@ -1,0 +1,126 @@
+/* universal selector*/
+* {
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    
+}
+
+/* element selector */
+p{color:green}
+
+
+/*id selector*/
+#heading{
+    color:rgba(255, 123, 0, 0.767);
+}
+
+#unique-box {border:2px solid black}
+
+/* class selector */
+
+.simply {color:red}
+
+.box {background-color: whitesmoke}
+
+.inner-box {border: 1px solid gray;}
+
+
+/* attribute selector */
+[type="text"] {border: 2px solid blue;}
+
+
+
+/* descendant selector  li inside ul (under more than 1 layers */
+/* element - select all elements under li & ul */
+
+ul li{
+
+    color: peru
+}
+
+/* class -select all class under li & ul */
+ul.list li.highlight {
+    color: red}
+
+/* direct child with class- direct relation (only 1 layer) lookup ul.list then li */
+ul.list > li {
+    color:green;
+
+}
+
+/* direct child with element lookup div then h2 */
+div > h2 {
+    color: orange;
+
+}
+
+/* direct class lookup class box--> class child*/
+
+.box > .child {
+    color:lightgreen;
+
+}
+
+/* multiple class  NO SPACE  */
+
+.inner-box.first-box {
+
+    background-color: yellowgreen;
+}
+
+/*  multiple elements */
+
+h5,h6 {
+
+    color: cyan;
+}
+
+/* multiple class */
+
+.multiple1, .multiple2 {
+    background: red;
+
+}
+
+/*  adjacent sibling selector, only applied to a */
+/* elements */
+
+div + a {
+    color: goldenrod;
+
+}
+
+/* class  */
+
+.link + .box-sibling {
+
+    background-color: lightcoral;
+}
+
+/*  ~  all under box*/
+.box ~ .general-sibling {
+    color: yellow;
+    font-style:italic;
+}
+
+h1 ~ h4 {
+
+    color:brown;
+}
+
+
+/* hover */
+.pseudo-class-link:hover {
+
+    color: red;
+    text-decoration: dashed;
+}
+
+/* elements */
+
+p::first-line{
+
+    background-color: gray;
+
+}
+

@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+img {
+    max-width: 100%;
+    /* filter: grayscale(80%);
+    filter: opacity(40%);
+    filter:blur(5px) 
+    filter: opacity(90%);
+    filter: hue-rotate(180deg);
+    filter: invert(70%); */
+    /* filter: sepia(100%);  Vintage */
+    /* filter: drop-shadow(10px 10px 1px red); */
+
+    /* multiple filter */
+    filter: grayscale(100%) blur(2px) drop-shadow(10px 10px 10px blue);
+
+
+}
