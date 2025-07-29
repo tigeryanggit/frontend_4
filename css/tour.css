@@ -15,7 +15,11 @@ html, body {
     flex-direction: row;
     width: 90vw;
     height: 90vh;
+    align-items: flex-start;
 
 }
 
 
+li {
+  display: inline-block;
+}

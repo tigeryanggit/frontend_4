@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    background: #f4f4f4;
+    height: 600px;
+
+}
+
+
+.item {
+    background-color: coral;
+    padding: 1rem;
+    border: 1px solid #333;
+    text-align: center;
+    background: red;
+    
+}
+
+.item-grid {
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-template-rows: repeat(4,100px);
+
+    /* ============================================== */
+    /*  adjust along x */
+    /* justify-content: space-evenly; */
+    /*  adjust along y */
+    /* align-content: space-around; */
+
+    /* short hand for justify-contents and align-contents */
+    place-content: space-around;
+
+    /* ============================================= */
+    /* adjust the container based on content and position */
+    /* justify-items: left;
+    align-items: start; */
+
+
+    /* short hand for justify-items and align-items */
+    place-items: center;    
+}
