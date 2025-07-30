@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100vh;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color:lightblue;
+    position: relative;
+    animation: spin 2s linear infinite;
+}
+
+.box::before, .box::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 35px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: cyan;
+    animation: bounce 2s infinite ease-in-out;
+}
+
+.box::after {
+    left: -35px;
+    background: coral;
+
+}
+
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+
+} 
+
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+
+    }
+/* 
+    25% {
+        transform: translateX(-10px);
+
+    }
+
+    50% {
+        transform: translateX(-20px);
+
+    } */
+
+    100% {
+        transform: translateY(-30px);
+        
+    }
+} 

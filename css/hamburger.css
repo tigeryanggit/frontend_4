@@ -1,8 +1,7 @@
-html,body {
-    margin: 0;
+html, body {
     padding:0;
+    margin: 0;
 }
-
 
 * {
     box-sizing: border-box;
@@ -10,7 +9,7 @@ html,body {
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.15;
+    overflow-y: hidden;
 }
 
 
@@ -99,36 +98,6 @@ img {
 .navbar .mobile-menu {
     display: none;
 }
-
-
-.main {
-    background-image: url(/img/background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    position: relative;
-    
-}
-
-.main::before {
-    content: "";
-    position: absolute;
-
-    /* controal total area to be shaddowed */
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.4);
-}
-
-.main h1 {
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-    margin: 0 auto;
-}
-
 
 @media (max-width: 768px) {
     .navbar .main-menu {
